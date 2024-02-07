@@ -3,6 +3,9 @@ package com.rp.section01;
 import com.rp.courseutil.Util;
 import reactor.core.publisher.Mono;
 
+import java.util.concurrent.Callable;
+import java.util.function.Supplier;
+
 public class Lecture05MonoFromSupplier {
     public static void main(String[] args) {
 
@@ -12,10 +15,15 @@ public class Lecture05MonoFromSupplier {
         */
 //        Mono<String> mono = Mono.just(getName()); // Not Lazy
 
-        Mono<String> monoSupplier = Mono.fromSupplier(() -> getName()); // Lazy
+        Supplier<String> stringSupplier = () -> getName();
+        Mono<String> monoSupplier = Mono.fromSupplier(stringSupplier); // Lazy
         monoSupplier.subscribe(
                 Util.onNext()
         );
+
+        Callable<String> stringCallable = () -> getName();
+        Mono.fromCallable(stringCallable)
+                .subscribe(Util.onNext());
     }
 
     private static String getName(){
