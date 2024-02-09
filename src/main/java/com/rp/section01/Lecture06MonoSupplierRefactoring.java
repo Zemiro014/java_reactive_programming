@@ -8,7 +8,8 @@ public class Lecture06MonoSupplierRefactoring {
     public static void main(String[] args) {
         getName();
         getName().subscribe(item -> System.out.println("RECEIVED: "+item));
-        getName();
+        String block = getName().block(); // o método block() interrompe o processo de assincrono
+        System.out.println(block);
     }
 
     private static Mono<String> getName(){
