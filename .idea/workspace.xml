@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture02MultipleSubscribers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture03FluxFromArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture02MonoJust.executor": "Run",
     "Application.Lecture02MultipleSubscribers.executor": "Run",
+    "Application.Lecture03FluxFromArrayList.executor": "Run",
     "Application.Lecture03MonoSubscribe.executor": "Run",
     "Application.Lecture04MonoEmptyOrError.executor": "Run",
     "Application.Lecture05MonoFromSupplier.executor": "Run",
@@ -62,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture02MultipleSubscribers">
+  <component name="RunManager" selected="Application.Lecture03FluxFromArrayList">
     <configuration name="Lecture01FluxIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture01FluxIntro" />
       <module name="reactor" />
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture07MonoFromFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section01.Lecture07MonoFromFuture" />
+    <configuration name="Lecture03FluxFromArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture03FluxFromArrayList" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section01.*" />
+          <option name="PATTERN" value="com.rp.section02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture03FluxFromArrayList" />
         <item itemvalue="Application.Lecture02MultipleSubscribers" />
         <item itemvalue="Application.Lecture01FluxIntro" />
         <item itemvalue="Application.Lecture09AssignmentDemo" />
         <item itemvalue="Application.Lecture08MonoFromRunnable" />
-        <item itemvalue="Application.Lecture07MonoFromFuture" />
       </list>
     </recent_temporary>
   </component>
