@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture08FluxInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture09FluxFromMono.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "Application.Lecture08FluxInterval.executor": "Run",
     "Application.Lecture08MonoFromRunnable.executor": "Run",
     "Application.Lecture09AssignmentDemo.executor": "Run",
+    "Application.Lecture09FluxFromMono.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,20 +68,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture08FluxInterval">
-    <configuration name="Lecture04FluxFromStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture04FluxFromStream" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture09FluxFromMono">
     <configuration name="Lecture05FluxRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture05FluxRange" />
       <module name="reactor" />
@@ -133,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture09FluxFromMono" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture09FluxFromMono" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture09FluxFromMono" />
         <item itemvalue="Application.Lecture08FluxInterval" />
         <item itemvalue="Application.Lecture07FluxVsList" />
         <item itemvalue="Application.Lecture06Subscription" />
         <item itemvalue="Application.Lecture05FluxRange" />
-        <item itemvalue="Application.Lecture04FluxFromStream" />
       </list>
     </recent_temporary>
   </component>
