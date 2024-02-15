@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture11StockPriceAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/assignment/StockPricePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/courseutil/DefaultSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture01FluxCreate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/courseutil/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/courseutil/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.FakerDemo.executor": "Run",
+    "Application.Lecture01FluxCreate.executor": "Run",
     "Application.Lecture01FluxIntro.executor": "Run",
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture02MonoJust.executor": "Run",
@@ -73,13 +75,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture11StockPriceAssignment">
-    <configuration name="Lecture08FluxInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture08FluxInterval" />
+  <component name="RunManager" selected="Application.Lecture01FluxCreate">
+    <configuration name="Lecture01FluxCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture01FluxCreate" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section02.*" />
+          <option name="PATTERN" value="com.rp.section03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture01FluxCreate" />
         <item itemvalue="Application.Lecture11StockPriceAssignment" />
         <item itemvalue="Application.StockPricePublisher" />
         <item itemvalue="Application.Lecture10FluxToMono" />
         <item itemvalue="Application.Lecture09FluxFromMono" />
-        <item itemvalue="Application.Lecture08FluxInterval" />
       </list>
     </recent_temporary>
   </component>
