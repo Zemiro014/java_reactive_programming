@@ -10,11 +10,16 @@ public class Lecture02FluxCreateRefactoring {
 
         NameProducer nameProducer = new NameProducer();
 
+        // Subscribing in publisher
         Flux.create(nameProducer)
                 .subscribe(Util.subscriber());
 
-        nameProducer.produce();
+        // Emitting items
+        Runnable runnable = nameProducer::produce;
+        for (int i = 0; i < 10; i++) {
+            new Thread(runnable).start();
+        }
 
-
+        Util.sleepSecond(2);
     }
 }
