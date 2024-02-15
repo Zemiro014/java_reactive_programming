@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture06Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture07FluxVsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/helper/NameGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture05FluxRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section02/Lecture05FluxRange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,8 @@
     "Application.Lecture05FluxRange.executor": "Run",
     "Application.Lecture05MonoFromSupplier.executor": "Run",
     "Application.Lecture06MonoSupplierRefactoring.executor": "Run",
+    "Application.Lecture06Subscription.executor": "Run",
+    "Application.Lecture07FluxVsList.executor": "Run",
     "Application.Lecture07MonoFromFuture.executor": "Run",
     "Application.Lecture08MonoFromRunnable.executor": "Run",
     "Application.Lecture09AssignmentDemo.executor": "Run",
@@ -65,33 +69,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture05FluxRange">
-    <configuration name="Lecture01FluxIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture01FluxIntro" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture02MultipleSubscribers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture02MultipleSubscribers" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture07FluxVsList">
     <configuration name="Lecture03FluxFromArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture03FluxFromArrayList" />
       <module name="reactor" />
@@ -131,13 +109,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture06Subscription" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture06Subscription" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture07FluxVsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture07FluxVsList" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture07FluxVsList" />
+        <item itemvalue="Application.Lecture06Subscription" />
         <item itemvalue="Application.Lecture05FluxRange" />
         <item itemvalue="Application.Lecture04FluxFromStream" />
         <item itemvalue="Application.Lecture03FluxFromArrayList" />
-        <item itemvalue="Application.Lecture02MultipleSubscribers" />
-        <item itemvalue="Application.Lecture01FluxIntro" />
       </list>
     </recent_temporary>
   </component>
