@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture02FluxCreateRefactoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture02FluxCreateRefactoring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section03/helper/NameProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/helper/NameProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture03FluxTake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "Application.Lecture02MonoJust.executor": "Run",
     "Application.Lecture02MultipleSubscribers.executor": "Run",
     "Application.Lecture03FluxFromArrayList.executor": "Run",
+    "Application.Lecture03FluxTake.executor": "Run",
     "Application.Lecture03MonoSubscribe.executor": "Run",
     "Application.Lecture04FluxFromStream.executor": "Run",
     "Application.Lecture04MonoEmptyOrError.executor": "Run",
@@ -74,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture02FluxCreateRefactoring">
+  <component name="RunManager" selected="Application.Lecture03FluxTake">
     <configuration name="Lecture01FluxCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture01FluxCreate" />
       <module name="reactor" />
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture10FluxToMono" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section02.Lecture10FluxToMono" />
+    <configuration name="Lecture03FluxTake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture03FluxTake" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section02.*" />
+          <option name="PATTERN" value="com.rp.section03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture03FluxTake" />
         <item itemvalue="Application.Lecture02FluxCreateRefactoring" />
         <item itemvalue="Application.Lecture01FluxCreate" />
         <item itemvalue="Application.Lecture11StockPriceAssignment" />
         <item itemvalue="Application.StockPricePublisher" />
-        <item itemvalue="Application.Lecture10FluxToMono" />
       </list>
     </recent_temporary>
   </component>
