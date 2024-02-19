@@ -9,9 +9,11 @@ public class Lecture04FluxCreateIssueFix {
                     String country;
                     do {
                         country = Util.faker().country().name();
+                        System.out.println("Emitted Country: "+country);
                         fluxSink.next(country);
-                    } while (!country.toLowerCase().equals("angola"));
+                    } while (!country.toLowerCase().equals("angola") && !fluxSink.isCancelled());
                 })
+                .take(3) // This cancels a subscription when the 3rd item is emitted
                 .subscribe(Util.subscriber());
     }
 }

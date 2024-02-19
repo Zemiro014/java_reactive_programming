@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture04FluxCreateIssueFix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture04FluxCreateIssueFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture04FluxCreateIssueFix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,44 +32,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FakerDemo.executor": "Run",
-    "Application.Lecture01FluxCreate.executor": "Run",
-    "Application.Lecture01FluxIntro.executor": "Run",
-    "Application.Lecture01Strteam.executor": "Run",
-    "Application.Lecture02FluxCreateRefactoring.executor": "Run",
-    "Application.Lecture02MonoJust.executor": "Run",
-    "Application.Lecture02MultipleSubscribers.executor": "Run",
-    "Application.Lecture03FluxFromArrayList.executor": "Run",
-    "Application.Lecture03FluxTake.executor": "Run",
-    "Application.Lecture03MonoSubscribe.executor": "Run",
-    "Application.Lecture04FluxCreateIssueFix.executor": "Run",
-    "Application.Lecture04FluxFromStream.executor": "Run",
-    "Application.Lecture04MonoEmptyOrError.executor": "Run",
-    "Application.Lecture05FluxRange.executor": "Run",
-    "Application.Lecture05MonoFromSupplier.executor": "Run",
-    "Application.Lecture06MonoSupplierRefactoring.executor": "Run",
-    "Application.Lecture06Subscription.executor": "Run",
-    "Application.Lecture07FluxVsList.executor": "Run",
-    "Application.Lecture07MonoFromFuture.executor": "Run",
-    "Application.Lecture08FluxInterval.executor": "Run",
-    "Application.Lecture08MonoFromRunnable.executor": "Run",
-    "Application.Lecture09AssignmentDemo.executor": "Run",
-    "Application.Lecture09FluxFromMono.executor": "Run",
-    "Application.Lecture10FluxToMono.executor": "Run",
-    "Application.Lecture11StockPriceAssignment.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.StockPricePublisher.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FakerDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture01FluxCreate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture01FluxIntro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture01Strteam.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture02FluxCreateRefactoring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture02MonoJust.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture02MultipleSubscribers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture03FluxFromArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture03FluxTake.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture03MonoSubscribe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture04FluxCreateIssueFix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture04FluxFromStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture04MonoEmptyOrError.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture05FluxRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture05MonoFromSupplier.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture06MonoSupplierRefactoring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture06Subscription.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture07FluxVsList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture07MonoFromFuture.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture08FluxInterval.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture08MonoFromRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture09AssignmentDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture09FluxFromMono.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture10FluxToMono.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lecture11StockPriceAssignment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockPricePublisher.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
