@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture05FluxGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture06FluxGenerateAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture06FluxGenerateEmitUntil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture04FluxCreateIssueFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture04FluxCreateIssueFix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,8 @@
     "Application.Lecture05FluxGenerate.executor": "Run",
     "Application.Lecture05FluxRange.executor": "Run",
     "Application.Lecture05MonoFromSupplier.executor": "Run",
+    "Application.Lecture06FluxGenerateAssignment.executor": "Run",
+    "Application.Lecture06FluxGenerateEmitUntil.executor": "Run",
     "Application.Lecture06MonoSupplierRefactoring.executor": "Run",
     "Application.Lecture06Subscription.executor": "Run",
     "Application.Lecture07FluxVsList.executor": "Run",
@@ -78,33 +80,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture05FluxGenerate">
-    <configuration name="Lecture01FluxCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture01FluxCreate" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture02FluxCreateRefactoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture02FluxCreateRefactoring" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture06FluxGenerateAssignment">
     <configuration name="Lecture03FluxTake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture03FluxTake" />
       <module name="reactor" />
@@ -144,13 +120,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture06FluxGenerateAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture06FluxGenerateAssignment" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture06FluxGenerateEmitUntil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture06FluxGenerateEmitUntil" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture06FluxGenerateAssignment" />
+        <item itemvalue="Application.Lecture06FluxGenerateEmitUntil" />
         <item itemvalue="Application.Lecture05FluxGenerate" />
         <item itemvalue="Application.Lecture04FluxCreateIssueFix" />
         <item itemvalue="Application.Lecture03FluxTake" />
-        <item itemvalue="Application.Lecture02FluxCreateRefactoring" />
-        <item itemvalue="Application.Lecture01FluxCreate" />
       </list>
     </recent_temporary>
   </component>
