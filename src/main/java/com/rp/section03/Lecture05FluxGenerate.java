@@ -7,7 +7,7 @@ public class Lecture05FluxGenerate {
 
     public static void main(String[] args) {
 
-        // Indefinitely instance. In each instance only one emitting is allowed
+        // Indefinitely loops. In each loop only one emitting is allowed
         Flux.generate(synchronousSink -> {
             String country = Util.faker().country().name();
             System.out.println("Emitted Country: "+country);
