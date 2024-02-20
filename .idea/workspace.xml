@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture02HandleAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture03DoCallbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +41,10 @@
     "Application.Lecture01Handle.executor": "Run",
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture02FluxCreateRefactoring.executor": "Run",
+    "Application.Lecture02HandleAssignment.executor": "Run",
     "Application.Lecture02MonoJust.executor": "Run",
     "Application.Lecture02MultipleSubscribers.executor": "Run",
+    "Application.Lecture03DoCallbacks.executor": "Run",
     "Application.Lecture03FluxFromArrayList.executor": "Run",
     "Application.Lecture03FluxTake.executor": "Run",
     "Application.Lecture03MonoSubscribe.executor": "Run",
@@ -87,7 +90,7 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture02HandleAssignment">
+  <component name="RunManager" selected="Application.Lecture03DoCallbacks">
     <configuration name="Lecture01Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture01Handle" />
       <module name="reactor" />
@@ -114,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture08FilereaderServiceAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture08FilereaderServiceAssignment" />
+    <configuration name="Lecture03DoCallbacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture03DoCallbacks" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section03.*" />
+          <option name="PATTERN" value="com.rp.section04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture09AssignmentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section01.Lecture09AssignmentDemo" />
+    <configuration name="Lecture08FilereaderServiceAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture08FilereaderServiceAssignment" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section01.*" />
+          <option name="PATTERN" value="com.rp.section03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture03DoCallbacks" />
         <item itemvalue="Application.Lecture02HandleAssignment" />
         <item itemvalue="Application.Lecture01Handle" />
         <item itemvalue="Application.Lecture08FilereaderServiceAssignment" />
         <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Lecture09AssignmentDemo" />
       </list>
     </recent_temporary>
   </component>
