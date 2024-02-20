@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture04LimitRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture06Delay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
     "Application.Lecture05FluxGenerate.executor": "Run",
     "Application.Lecture05FluxRange.executor": "Run",
     "Application.Lecture05MonoFromSupplier.executor": "Run",
+    "Application.Lecture06Delay.executor": "Run",
     "Application.Lecture06FluxGenerateAssignment.executor": "Run",
     "Application.Lecture06FluxGenerateEmitUntil.executor": "Run",
     "Application.Lecture06MonoSupplierRefactoring.executor": "Run",
@@ -91,7 +92,7 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture04LimitRate">
+  <component name="RunManager" selected="Application.Lecture06Delay">
     <configuration name="Lecture01Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture01Handle" />
       <module name="reactor" />
@@ -144,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture08FilereaderServiceAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture08FilereaderServiceAssignment" />
+    <configuration name="Lecture06Delay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture06Delay" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section03.*" />
+          <option name="PATTERN" value="com.rp.section04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture06Delay" />
         <item itemvalue="Application.Lecture04LimitRate" />
         <item itemvalue="Application.Lecture03DoCallbacks" />
         <item itemvalue="Application.Lecture02HandleAssignment" />
         <item itemvalue="Application.Lecture01Handle" />
-        <item itemvalue="Application.Lecture08FilereaderServiceAssignment" />
       </list>
     </recent_temporary>
   </component>
