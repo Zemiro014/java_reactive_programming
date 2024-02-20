@@ -16,5 +16,6 @@ public class Lecture07FluxGenerateCounter {
             return state + 1;
         })
         .subscribe(Util.subscriber());
+
     }
 }
