@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture08FilereaderServiceAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/assignment/FileReaderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assignment/sec03/file01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture01Handle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture07FluxGenerateCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section03/Lecture07FluxGenerateCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assignment/sec01/file03.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
     "Application.FakerDemo.executor": "Run",
     "Application.Lecture01FluxCreate.executor": "Run",
     "Application.Lecture01FluxIntro.executor": "Run",
+    "Application.Lecture01Handle.executor": "Run",
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture02FluxCreateRefactoring.executor": "Run",
     "Application.Lecture02MonoJust.executor": "Run",
@@ -90,13 +87,13 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture08FilereaderServiceAssignment">
-    <configuration name="Lecture06FluxGenerateAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section03.Lecture06FluxGenerateAssignment" />
+  <component name="RunManager" selected="Application.Lecture01Handle">
+    <configuration name="Lecture01Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture01Handle" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section03.*" />
+          <option name="PATTERN" value="com.rp.section04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture01Handle" />
         <item itemvalue="Application.Lecture08FilereaderServiceAssignment" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Lecture09AssignmentDemo" />
         <item itemvalue="Application.Lecture07FluxGenerateCounter" />
-        <item itemvalue="Application.Lecture06FluxGenerateAssignment" />
       </list>
     </recent_temporary>
   </component>
