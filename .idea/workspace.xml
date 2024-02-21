@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture08DefaultIfEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture09SwitchIfEmpty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,7 @@
     "Application.Lecture08MonoFromRunnable.executor": "Run",
     "Application.Lecture09AssignmentDemo.executor": "Run",
     "Application.Lecture09FluxFromMono.executor": "Run",
+    "Application.Lecture09SwitchIfEmpty.executor": "Run",
     "Application.Lecture10FluxToMono.executor": "Run",
     "Application.Lecture11StockPriceAssignment.executor": "Run",
     "Application.Main.executor": "Run",
@@ -94,20 +95,7 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture08DefaultIfEmpty">
-    <configuration name="Lecture04LimitRate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture04LimitRate" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture09SwitchIfEmpty">
     <configuration name="Lecture05Timout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture05Timout" />
       <module name="reactor" />
@@ -160,13 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture09SwitchIfEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture09SwitchIfEmpty" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture09SwitchIfEmpty" />
         <item itemvalue="Application.Lecture08DefaultIfEmpty" />
         <item itemvalue="Application.Lecture05Timout" />
         <item itemvalue="Application.Lecture07OnError" />
         <item itemvalue="Application.Lecture06Delay" />
-        <item itemvalue="Application.Lecture04LimitRate" />
       </list>
     </recent_temporary>
   </component>
