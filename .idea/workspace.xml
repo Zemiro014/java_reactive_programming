@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/Lecture05HotPublishCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/Lecture06Assignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/assignment/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/assignment/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/assignment/PurchaseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/assignment/RevenueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +65,7 @@
     "Application.Lecture05HotPublishCache.executor": "Run",
     "Application.Lecture05MonoFromSupplier.executor": "Run",
     "Application.Lecture05Timout.executor": "Run",
+    "Application.Lecture06Assignment.executor": "Run",
     "Application.Lecture06Delay.executor": "Run",
     "Application.Lecture06FluxGenerateAssignment.executor": "Run",
     "Application.Lecture06FluxGenerateEmitUntil.executor": "Run",
@@ -100,24 +106,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rp.section05.assignment" />
+      <recent name="com.rp.section05" />
       <recent name="com.rp.section04" />
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture05HotPublishCache">
-    <configuration name="Lecture01ColdPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture01ColdPublisher" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture06Assignment">
     <configuration name="Lecture02HotShare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture02HotShare" />
       <module name="reactor" />
@@ -170,13 +165,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture06Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture06Assignment" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture06Assignment" />
         <item itemvalue="Application.Lecture05HotPublishCache" />
         <item itemvalue="Application.Lecture04HotPublishAutoConnect" />
         <item itemvalue="Application.Lecture03HotPublish" />
         <item itemvalue="Application.Lecture02HotShare" />
-        <item itemvalue="Application.Lecture01ColdPublisher" />
       </list>
     </recent_temporary>
   </component>
