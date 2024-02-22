@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/Lecture04HotPublishAutoConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/Lecture05HotPublishCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "Application.Lecture04MonoEmptyOrError.executor": "Run",
     "Application.Lecture05FluxGenerate.executor": "Run",
     "Application.Lecture05FluxRange.executor": "Run",
+    "Application.Lecture05HotPublishCache.executor": "Run",
     "Application.Lecture05MonoFromSupplier.executor": "Run",
     "Application.Lecture05Timout.executor": "Run",
     "Application.Lecture06Delay.executor": "Run",
@@ -103,26 +104,13 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture04HotPublishAutoConnect">
+  <component name="RunManager" selected="Application.Lecture05HotPublishCache">
     <configuration name="Lecture01ColdPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture01ColdPublisher" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rp.section05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture01Handle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture01Handle" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,13 +157,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture05HotPublishCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture05HotPublishCache" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture05HotPublishCache" />
         <item itemvalue="Application.Lecture04HotPublishAutoConnect" />
         <item itemvalue="Application.Lecture03HotPublish" />
         <item itemvalue="Application.Lecture02HotShare" />
         <item itemvalue="Application.Lecture01ColdPublisher" />
-        <item itemvalue="Application.Lecture01Handle" />
       </list>
     </recent_temporary>
   </component>
