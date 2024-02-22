@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture11SwitchOnFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/Lecture12FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/helper/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/helper/PurchaseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/helper/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section04/helper/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +80,7 @@
     "Application.Lecture10transform.executor": "Run",
     "Application.Lecture11StockPriceAssignment.executor": "Run",
     "Application.Lecture11SwitchOnFirst.executor": "Run",
+    "Application.Lecture12FlatMap.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.StockPricePublisher.executor": "Run",
     "Application.Teste.executor": "Run",
@@ -98,20 +104,7 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture11SwitchOnFirst">
-    <configuration name="Lecture05Timout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture05Timout" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture12FlatMap">
     <configuration name="Lecture08DefaultIfEmpty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture08DefaultIfEmpty" />
       <module name="reactor" />
@@ -164,13 +157,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture12FlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section04.Lecture12FlatMap" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture12FlatMap" />
         <item itemvalue="Application.Lecture11SwitchOnFirst" />
         <item itemvalue="Application.Lecture10transform" />
         <item itemvalue="Application.Lecture09SwitchIfEmpty" />
         <item itemvalue="Application.Lecture08DefaultIfEmpty" />
-        <item itemvalue="Application.Lecture05Timout" />
       </list>
     </recent_temporary>
   </component>
