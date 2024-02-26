@@ -11,6 +11,7 @@ public class Lecture02SubscriberOnDemo {
             printThreadName("create");
                     fluxSink.next(1);
                 })
+                .subscribeOn(Schedulers.newParallel("vins")) // The flux subscription will happen in parallel thread, allowing that the code execution will async and not block the main thread.
                 .doOnNext(i -> printThreadName("next " + i));
 
        Runnable runnable = () -> flux
