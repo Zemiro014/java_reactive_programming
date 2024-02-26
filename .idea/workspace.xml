@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture01ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture02SubscriberOnDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
     "Application.Lecture02HotShare.executor": "Run",
     "Application.Lecture02MonoJust.executor": "Run",
     "Application.Lecture02MultipleSubscribers.executor": "Run",
+    "Application.Lecture02SubscriberOnDemo.executor": "Run",
     "Application.Lecture03DoCallbacks.executor": "Run",
     "Application.Lecture03FluxFromArrayList.executor": "Run",
     "Application.Lecture03FluxTake.executor": "Run",
@@ -108,7 +110,7 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture01ThreadDemo">
+  <component name="RunManager" selected="Application.Lecture02SubscriberOnDemo">
     <configuration name="Lecture01ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture01ThreadDemo" />
       <module name="reactor" />
@@ -122,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture03HotPublish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture03HotPublish" />
+    <configuration name="Lecture02SubscriberOnDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture02SubscriberOnDemo" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section05.*" />
+          <option name="PATTERN" value="com.rp.section06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture02SubscriberOnDemo" />
         <item itemvalue="Application.Lecture01ThreadDemo" />
         <item itemvalue="Application.Lecture06Assignment" />
         <item itemvalue="Application.Lecture05HotPublishCache" />
         <item itemvalue="Application.Lecture04HotPublishAutoConnect" />
-        <item itemvalue="Application.Lecture03HotPublish" />
       </list>
     </recent_temporary>
   </component>
