@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture04PublishOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture05PublishSubOn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture03SubscribeOnMultipleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture03SubscribeOnMultipleItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +106,14 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rp.section06" />
       <recent name="com.rp.section05.assignment" />
       <recent name="com.rp.section05" />
       <recent name="com.rp.section04" />
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture03SubscribeOnMultipleItems">
+  <component name="RunManager" selected="Application.Lecture05PublishSubOn">
     <configuration name="Lecture01ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture01ThreadDemo" />
       <module name="reactor" />
@@ -166,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture06Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture06Assignment" />
+    <configuration name="Lecture05PublishSubOn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture05PublishSubOn" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section05.*" />
+          <option name="PATTERN" value="com.rp.section06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture05PublishSubOn" />
         <item itemvalue="Application.Lecture03SubscribeOnMultipleItems" />
         <item itemvalue="Application.Lecture04PublishOn" />
         <item itemvalue="Application.Lecture02SubscriberOnDemo" />
         <item itemvalue="Application.Lecture01ThreadDemo" />
-        <item itemvalue="Application.Lecture06Assignment" />
       </list>
     </recent_temporary>
   </component>
