@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture03SubscribeOnMultipleItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section05/assignment/RevenueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section05/assignment/RevenueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture02SubscriberOnDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture02SubscriberOnDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Application.Lecture03FluxTake.executor": "Run",
     "Application.Lecture03HotPublish.executor": "Run",
     "Application.Lecture03MonoSubscribe.executor": "Run",
+    "Application.Lecture03SubscribeOnMultipleItems.executor": "Run",
     "Application.Lecture04FluxCreateIssueFix.executor": "Run",
     "Application.Lecture04FluxFromStream.executor": "Run",
     "Application.Lecture04HotPublishAutoConnect.executor": "Run",
@@ -111,7 +111,7 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture02SubscriberOnDemo">
+  <component name="RunManager" selected="Application.Lecture03SubscribeOnMultipleItems">
     <configuration name="Lecture01ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture01ThreadDemo" />
       <module name="reactor" />
@@ -138,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture04HotPublishAutoConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section05.Lecture04HotPublishAutoConnect" />
+    <configuration name="Lecture03SubscribeOnMultipleItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture03SubscribeOnMultipleItems" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section05.*" />
+          <option name="PATTERN" value="com.rp.section06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture03SubscribeOnMultipleItems" />
         <item itemvalue="Application.Lecture02SubscriberOnDemo" />
         <item itemvalue="Application.Lecture01ThreadDemo" />
         <item itemvalue="Application.Lecture06Assignment" />
         <item itemvalue="Application.Lecture05HotPublishCache" />
-        <item itemvalue="Application.Lecture04HotPublishAutoConnect" />
       </list>
     </recent_temporary>
   </component>
