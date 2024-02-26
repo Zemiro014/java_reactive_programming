@@ -4,7 +4,7 @@ import com.rp.courseutil.Util;
 import reactor.core.publisher.Flux;
 import reactor.core.scheduler.Schedulers;
 
-public class Lecture03SubscribeOnMultipleItems {
+public class Lecture04PublishOn {
 
     public static void main(String[] args) {
 
@@ -12,21 +12,18 @@ public class Lecture03SubscribeOnMultipleItems {
                     printThreadName("create");
                     for (int i = 0; i < 4; i++) {
                         fluxSink.next(i);
-                        Util.sleepSecond(1);
                     }
                     fluxSink.complete();
                 })
-                .doOnNext(i -> printThreadName("next " + i));
+                .doOnNext(i -> printThreadName("doNexte1 " + i));
 
         flux
-        .subscribeOn(Schedulers.boundedElastic())
-        .subscribe(v -> printThreadName("sub1 "+v));
+                .publishOn(Schedulers.boundedElastic())
+                .doOnNext(i -> printThreadName("doNexte2 " + i))
+                .publishOn(Schedulers.parallel())
+                .subscribe(v -> printThreadName("sub "+v));
 
-        flux
-        .subscribeOn(Schedulers.newParallel("vins"))
-        .subscribe(v -> printThreadName("sub2 "+v));
-
-        Util.sleepSecond(7);
+        Util.sleepSecond(5);
 
     }
 
