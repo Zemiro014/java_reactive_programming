@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture01Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture02Drop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/courseutil/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/courseutil/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,14 +109,14 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rp.section07" />
       <recent name="com.rp.section06" />
       <recent name="com.rp.section05.assignment" />
       <recent name="com.rp.section05" />
       <recent name="com.rp.section04" />
-      <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture01Demo">
+  <component name="RunManager" selected="Application.Lecture02Drop">
     <configuration name="Lecture01Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture01Demo" />
       <module name="reactor" />
@@ -131,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture03SubscribeOnMultipleItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture03SubscribeOnMultipleItems" />
+    <configuration name="Lecture02Drop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture02Drop" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section06.*" />
+          <option name="PATTERN" value="com.rp.section07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture04PublishOn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture04PublishOn" />
+    <configuration name="Lecture03SubscribeOnMultipleItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture03SubscribeOnMultipleItems" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
@@ -185,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture02Drop" />
         <item itemvalue="Application.Lecture01Demo" />
         <item itemvalue="Application.Lecture06Parallel" />
         <item itemvalue="Application.Lecture05PublishSubOn" />
         <item itemvalue="Application.Lecture03SubscribeOnMultipleItems" />
-        <item itemvalue="Application.Lecture04PublishOn" />
       </list>
     </recent_temporary>
   </component>
