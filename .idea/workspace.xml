@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/Lecture02Concat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/Lecture03Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/helper/AmericanAirlines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/helper/Emirates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/helper/Qatar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +60,7 @@
     "Application.Lecture03FluxTake.executor": "Run",
     "Application.Lecture03HotPublish.executor": "Run",
     "Application.Lecture03Latest.executor": "Run",
+    "Application.Lecture03Merge.executor": "Run",
     "Application.Lecture03MonoSubscribe.executor": "Run",
     "Application.Lecture03SubscribeOnMultipleItems.executor": "Run",
     "Application.Lecture04Error.executor": "Run",
@@ -115,14 +119,14 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rp.section08.helper" />
       <recent name="com.rp.section08" />
       <recent name="com.rp.section07" />
       <recent name="com.rp.section06" />
       <recent name="com.rp.section05.assignment" />
-      <recent name="com.rp.section05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture02Concat">
+  <component name="RunManager" selected="Application.Lecture03Merge">
     <configuration name="Lecture01StartWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section08.Lecture01StartWith" />
       <module name="reactor" />
@@ -149,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture03Latest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture03Latest" />
+    <configuration name="Lecture03Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section08.Lecture03Merge" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section07.*" />
+          <option name="PATTERN" value="com.rp.section08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture03Merge" />
         <item itemvalue="Application.Lecture02Concat" />
         <item itemvalue="Application.Lecture01StartWith" />
         <item itemvalue="Application.Lecture05BufferWithSize" />
         <item itemvalue="Application.Lecture04Error" />
-        <item itemvalue="Application.Lecture03Latest" />
       </list>
     </recent_temporary>
   </component>
