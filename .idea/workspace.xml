@@ -118,7 +118,7 @@
       <recent name="com.rp.section04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture03Latest">
+  <component name="RunManager" selected="Application.Lecture04Error">
     <configuration name="Lecture01Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture01Demo" />
       <module name="reactor" />
@@ -158,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture05PublishSubOn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture05PublishSubOn" />
+    <configuration name="Lecture04Error" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture04Error" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section06.*" />
+          <option name="PATTERN" value="com.rp.section07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture04Error" />
         <item itemvalue="Application.Lecture03Latest" />
         <item itemvalue="Application.Lecture02Drop" />
         <item itemvalue="Application.Lecture01Demo" />
         <item itemvalue="Application.Lecture06Parallel" />
-        <item itemvalue="Application.Lecture05PublishSubOn" />
       </list>
     </recent_temporary>
   </component>
