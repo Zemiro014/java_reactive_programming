@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section06/Lecture06Parallel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture01Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/courseutil/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/courseutil/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   "keyToString": {
     "Application.FakerDemo.executor": "Run",
     "Application.Lecture01ColdPublisher.executor": "Run",
+    "Application.Lecture01Demo.executor": "Run",
     "Application.Lecture01FluxCreate.executor": "Run",
     "Application.Lecture01FluxIntro.executor": "Run",
     "Application.Lecture01Handle.executor": "Run",
@@ -115,13 +117,13 @@
       <recent name="com.rp.section03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture06Parallel">
-    <configuration name="Lecture02SubscriberOnDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture02SubscriberOnDemo" />
+  <component name="RunManager" selected="Application.Lecture01Demo">
+    <configuration name="Lecture01Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture01Demo" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section06.*" />
+          <option name="PATTERN" value="com.rp.section07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture01Demo" />
         <item itemvalue="Application.Lecture06Parallel" />
         <item itemvalue="Application.Lecture05PublishSubOn" />
         <item itemvalue="Application.Lecture03SubscribeOnMultipleItems" />
         <item itemvalue="Application.Lecture04PublishOn" />
-        <item itemvalue="Application.Lecture02SubscriberOnDemo" />
       </list>
     </recent_temporary>
   </component>
