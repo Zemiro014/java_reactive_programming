@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture02Drop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,7 @@
     "Application.Lecture01Handle.executor": "Run",
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture01ThreadDemo.executor": "Run",
+    "Application.Lecture02Drop.executor": "Run",
     "Application.Lecture02FluxCreateRefactoring.executor": "Run",
     "Application.Lecture02HandleAssignment.executor": "Run",
     "Application.Lecture02HotShare.executor": "Run",
