@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture03Latest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture05BufferWithSize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
     "Application.Lecture03Latest.executor": "Run",
     "Application.Lecture03MonoSubscribe.executor": "Run",
     "Application.Lecture03SubscribeOnMultipleItems.executor": "Run",
+    "Application.Lecture04Error.executor": "Run",
     "Application.Lecture04FluxCreateIssueFix.executor": "Run",
     "Application.Lecture04FluxFromStream.executor": "Run",
     "Application.Lecture04HotPublishAutoConnect.executor": "Run",
@@ -118,7 +118,7 @@
       <recent name="com.rp.section04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture04Error">
+  <component name="RunManager" selected="Application.Lecture05BufferWithSize">
     <configuration name="Lecture01Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture01Demo" />
       <module name="reactor" />
@@ -171,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture06Parallel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section06.Lecture06Parallel" />
+    <configuration name="Lecture05BufferWithSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture05BufferWithSize" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section06.*" />
+          <option name="PATTERN" value="com.rp.section07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture05BufferWithSize" />
         <item itemvalue="Application.Lecture04Error" />
         <item itemvalue="Application.Lecture03Latest" />
         <item itemvalue="Application.Lecture02Drop" />
         <item itemvalue="Application.Lecture01Demo" />
-        <item itemvalue="Application.Lecture06Parallel" />
       </list>
     </recent_temporary>
   </component>
