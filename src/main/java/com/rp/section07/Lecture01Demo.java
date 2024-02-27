@@ -7,7 +7,7 @@ import reactor.core.scheduler.Schedulers;
 public class Lecture01Demo {
 
     public static void main(String[] args) {
-
+        // BackPressure: occur when the publisher produce item so faster than the subscriber can consume them.
         // In this code, the publisher is going produce all items before the subscriber start consuming them. For this reason, There will be a overflow on publish side.
         Flux.create(fluxSink -> {
             for (int i = 0; i < 501; i++) {

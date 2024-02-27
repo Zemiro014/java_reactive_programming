@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture05BufferWithSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture01Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture01Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     "Application.Lecture04LimitRate.executor": "Run",
     "Application.Lecture04MonoEmptyOrError.executor": "Run",
     "Application.Lecture04PublishOn.executor": "Run",
+    "Application.Lecture05BufferWithSize.executor": "Run",
     "Application.Lecture05FluxGenerate.executor": "Run",
     "Application.Lecture05FluxRange.executor": "Run",
     "Application.Lecture05HotPublishCache.executor": "Run",
