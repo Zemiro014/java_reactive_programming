@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture01Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section07/Lecture01Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/Lecture01StartWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/helper/NameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
     "Application.Lecture01FluxCreate.executor": "Run",
     "Application.Lecture01FluxIntro.executor": "Run",
     "Application.Lecture01Handle.executor": "Run",
+    "Application.Lecture01StartWith.executor": "Run",
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture01ThreadDemo.executor": "Run",
     "Application.Lecture02Drop.executor": "Run",
@@ -119,13 +122,13 @@
       <recent name="com.rp.section04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture05BufferWithSize">
-    <configuration name="Lecture01Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section07.Lecture01Demo" />
+  <component name="RunManager" selected="Application.Lecture01StartWith">
+    <configuration name="Lecture01StartWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section08.Lecture01StartWith" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section07.*" />
+          <option name="PATTERN" value="com.rp.section08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture01StartWith" />
         <item itemvalue="Application.Lecture05BufferWithSize" />
         <item itemvalue="Application.Lecture04Error" />
         <item itemvalue="Application.Lecture03Latest" />
         <item itemvalue="Application.Lecture02Drop" />
-        <item itemvalue="Application.Lecture01Demo" />
       </list>
     </recent_temporary>
   </component>
