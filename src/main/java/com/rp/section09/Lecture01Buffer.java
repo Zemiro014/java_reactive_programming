@@ -10,7 +10,7 @@ public class Lecture01Buffer {
     public static void main(String[] args) {
 
         eventStream()
-                .buffer(5) // Allow that the subscriber consuming the items in LIST
+                .buffer(5) // Allow that the subscriber consuming the items in group instead of item by item.
                 .subscribe(Util.subscriber());
 
 
@@ -19,7 +19,6 @@ public class Lecture01Buffer {
 
     private static Flux<String> eventStream(){
         return Flux.interval(Duration.ofMillis(300))
-                .take(3)
                 .map(i -> "event"+i);
     }
 }
