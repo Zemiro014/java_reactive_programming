@@ -1,7 +1,6 @@
 package com.rp.section11;
 
 import com.rp.courseutil.Util;
-import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.core.publisher.Sinks;
 
@@ -15,8 +14,9 @@ public class Lecture01SinkOne {
 
         Mono<Object> mono = sink.asMono();
         mono.subscribe(Util.subscriber("Sam"));
+        mono.subscribe(Util.subscriber("mike"));
 
-        sink.emitValue("hi", ((signalType, emitResult) -> {
+/*        sink.emitValue("hi", ((signalType, emitResult) -> {
             System.out.println(signalType.name());
             System.out.println(emitResult.name());
             return false;
@@ -27,6 +27,9 @@ public class Lecture01SinkOne {
             System.out.println(emitResult.name());
             return true;
         }));
+        */
+
+        sink.tryEmitValue("Hello");
 
     }
 }
