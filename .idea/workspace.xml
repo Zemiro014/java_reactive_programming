@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section08/Lecture06Assignment.java" afterDir="false" />
-    </list>
+    <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,13 +122,13 @@
       <recent name="com.rp.section05.assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture06Assignment">
-    <configuration name="Lecture02Concat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section08.Lecture02Concat" />
+  <component name="RunManager" selected="Application.Lecture01Buffer">
+    <configuration name="Lecture01Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section09.Lecture01Buffer" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section08.*" />
+          <option name="PATTERN" value="com.rp.section09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture01Buffer" />
         <item itemvalue="Application.Lecture06Assignment" />
         <item itemvalue="Application.Lecture05CombineLatest" />
         <item itemvalue="Application.Lecture04Zip" />
         <item itemvalue="Application.Lecture03Merge" />
-        <item itemvalue="Application.Lecture02Concat" />
       </list>
     </recent_temporary>
   </component>
