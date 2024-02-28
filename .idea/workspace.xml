@@ -128,14 +128,14 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rp.section10" />
       <recent name="com.rp.section09" />
       <recent name="com.rp.section08.helper" />
       <recent name="com.rp.section08" />
       <recent name="com.rp.section07" />
-      <recent name="com.rp.section06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture02Retry">
+  <component name="RunManager" selected="Application.Lecture03RetryWhen">
     <configuration name="Lecture01Repeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section10.Lecture01Repeat" />
       <module name="reactor" />
@@ -162,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture04Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section09.Lecture04Window" />
+    <configuration name="Lecture03RetryWhen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section10.Lecture03RetryWhen" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section09.*" />
+          <option name="PATTERN" value="com.rp.section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture03RetryWhen" />
         <item itemvalue="Application.Lecture02Retry" />
         <item itemvalue="Application.Lecture01Repeat" />
         <item itemvalue="Application.Lecture06Assignment" />
         <item itemvalue="Application.Lecture06GroupBy" />
-        <item itemvalue="Application.Lecture04Window" />
       </list>
     </recent_temporary>
   </component>
