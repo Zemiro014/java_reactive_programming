@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="" />
+    <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section10/Lecture01Repeat.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +41,7 @@
     "Application.Lecture01FluxCreate.executor": "Run",
     "Application.Lecture01FluxIntro.executor": "Run",
     "Application.Lecture01Handle.executor": "Run",
+    "Application.Lecture01Repeat.executor": "Run",
     "Application.Lecture01StartWith.executor": "Run",
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture01ThreadDemo.executor": "Run",
@@ -130,13 +133,13 @@
       <recent name="com.rp.section06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture06Assignment">
-    <configuration name="Lecture02OverlapAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section09.Lecture02OverlapAndDrop" />
+  <component name="RunManager" selected="Application.Lecture01Repeat">
+    <configuration name="Lecture01Repeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section10.Lecture01Repeat" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section09.*" />
+          <option name="PATTERN" value="com.rp.section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture01Repeat" />
         <item itemvalue="Application.Lecture06Assignment" />
         <item itemvalue="Application.Lecture06GroupBy" />
         <item itemvalue="Application.Lecture04Window" />
         <item itemvalue="Application.Lecture03Assignment" />
-        <item itemvalue="Application.Lecture02OverlapAndDrop" />
       </list>
     </recent_temporary>
   </component>
