@@ -19,6 +19,7 @@ public class Lecture01Buffer {
 
     private static Flux<String> eventStream(){
         return Flux.interval(Duration.ofMillis(300))
+                .take(3)
                 .map(i -> "event"+i);
     }
 }
