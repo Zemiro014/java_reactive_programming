@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section10/Lecture02Retry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section10/Lecture04RetryWhenAdvanced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     "Application.Lecture03Latest.executor": "Run",
     "Application.Lecture03Merge.executor": "Run",
     "Application.Lecture03MonoSubscribe.executor": "Run",
+    "Application.Lecture03RetryWhen.executor": "Run",
     "Application.Lecture03SubscribeOnMultipleItems.executor": "Run",
     "Application.Lecture04Error.executor": "Run",
     "Application.Lecture04FluxCreateIssueFix.executor": "Run",
@@ -72,6 +73,7 @@
     "Application.Lecture04LimitRate.executor": "Run",
     "Application.Lecture04MonoEmptyOrError.executor": "Run",
     "Application.Lecture04PublishOn.executor": "Run",
+    "Application.Lecture04RetryWhenAdvanced.executor": "Run",
     "Application.Lecture04Window.executor": "Run",
     "Application.Lecture04Zip.executor": "Run",
     "Application.Lecture05BufferWithSize.executor": "Run",
@@ -135,7 +137,7 @@
       <recent name="com.rp.section07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture03RetryWhen">
+  <component name="RunManager" selected="Application.Lecture04RetryWhenAdvanced">
     <configuration name="Lecture01Repeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section10.Lecture01Repeat" />
       <module name="reactor" />
@@ -175,6 +177,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture04RetryWhenAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section10.Lecture04RetryWhenAdvanced" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lecture06Assignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section09.Lecture06Assignment" />
       <module name="reactor" />
@@ -188,26 +203,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture06GroupBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section09.Lecture06GroupBy" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture04RetryWhenAdvanced" />
         <item itemvalue="Application.Lecture03RetryWhen" />
         <item itemvalue="Application.Lecture02Retry" />
         <item itemvalue="Application.Lecture01Repeat" />
         <item itemvalue="Application.Lecture06Assignment" />
-        <item itemvalue="Application.Lecture06GroupBy" />
       </list>
     </recent_temporary>
   </component>
