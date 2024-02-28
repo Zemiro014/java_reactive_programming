@@ -19,7 +19,7 @@ public class Lecture04Window {
 
 
         eventStream()
-                .window(5)
+                .window(Duration.ofSeconds(2))
                 .flatMap(stringFlux -> saveEvents(stringFlux))
                 .subscribe(Util.subscriber());
 
