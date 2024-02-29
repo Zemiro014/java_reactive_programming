@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section11/Lecture03SinkThreadSafety.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section11/Lecture04SinkMulti.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
     "Application.Lecture04MonoEmptyOrError.executor": "Run",
     "Application.Lecture04PublishOn.executor": "Run",
     "Application.Lecture04RetryWhenAdvanced.executor": "Run",
+    "Application.Lecture04SinkMulti.executor": "Run",
     "Application.Lecture04Window.executor": "Run",
     "Application.Lecture04Zip.executor": "Run",
     "Application.Lecture05BufferWithSize.executor": "Run",
@@ -132,14 +133,14 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assignment/sec01/sec" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rp.section11" />
       <recent name="com.rp.section10" />
       <recent name="com.rp.section09" />
       <recent name="com.rp.section08.helper" />
       <recent name="com.rp.section08" />
-      <recent name="com.rp.section07" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture03SinkThreadSafety">
+  <component name="RunManager" selected="Application.Lecture04SinkMulti">
     <configuration name="Lecture01SinkOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section11.Lecture01SinkOne" />
       <module name="reactor" />
@@ -159,19 +160,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rp.section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture03RetryWhen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section10.Lecture03RetryWhen" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,13 +193,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture04SinkMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section11.Lecture04SinkMulti" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture04SinkMulti" />
         <item itemvalue="Application.Lecture03SinkThreadSafety" />
         <item itemvalue="Application.Lecture02SinkUnicast" />
         <item itemvalue="Application.Lecture01SinkOne" />
         <item itemvalue="Application.Lecture04RetryWhenAdvanced" />
-        <item itemvalue="Application.Lecture03RetryWhen" />
       </list>
     </recent_temporary>
   </component>
