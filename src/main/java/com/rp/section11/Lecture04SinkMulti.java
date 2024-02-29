@@ -18,14 +18,16 @@ public class Lecture04SinkMulti {
         // handle through subscribers will receive items
         Flux<Object> flux = sink.asFlux();
 
-        // Allow one or more subscription
-        flux.subscribe(Util.subscriber("SAM"));
-        flux.subscribe(Util.subscriber("Mike"));
-
+        // The items emitted before any subscription are stored, so the first subscriber will consume that stored items
         sink.tryEmitNext("Hi");
         sink.tryEmitNext("how are you");
-        sink.tryEmitNext("?");
 
+        // Allow one or more subscription
+        flux.subscribe(Util.subscriber("SAM")); // Will consume the 2 above items and 1 below item
+        flux.subscribe(Util.subscriber("Mike")); // Will consume only the 1 below item
+
+        sink.tryEmitNext("?");
+        flux.subscribe(Util.subscriber("Jake")); // Will consume nothing
 
 
     }
