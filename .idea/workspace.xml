@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section11/Lecture04SinkReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section11/Lecture07SlackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section11/assignment/SlackMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section11/assignment/SlackMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section11/assignment/SlackRoom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +104,7 @@
     "Application.Lecture07FluxVsList.executor": "Run",
     "Application.Lecture07MonoFromFuture.executor": "Run",
     "Application.Lecture07OnError.executor": "Run",
+    "Application.Lecture07SlackDemo.executor": "Run",
     "Application.Lecture08DefaultIfEmpty.executor": "Run",
     "Application.Lecture08FilereaderServiceAssignment.executor": "Run",
     "Application.Lecture08FluxInterval.executor": "Run",
@@ -142,20 +146,7 @@
       <recent name="com.rp.section08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture04SinkReply">
-    <configuration name="Lecture02SinkUnicast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section11.Lecture02SinkUnicast" />
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.section11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture07SlackDemo">
     <configuration name="Lecture03SinkThreadSafety" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section11.Lecture03SinkThreadSafety" />
       <module name="reactor" />
@@ -208,13 +199,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture07SlackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section11.Lecture07SlackDemo" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.section11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture07SlackDemo" />
         <item itemvalue="Application.Lecture04SinkReply" />
         <item itemvalue="Application.Lecture05SinkMultiDirectAll" />
         <item itemvalue="Application.Lecture04SinkMulti" />
         <item itemvalue="Application.Lecture03SinkThreadSafety" />
-        <item itemvalue="Application.Lecture02SinkUnicast" />
       </list>
     </recent_temporary>
   </component>
