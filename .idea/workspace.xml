@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rp/section12/Lecture01Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rp/section12/Lecture01Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section12/Lecture02ContextRateLimiterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section12/helper/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rp/section12/helper/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     "Application.Lecture01Strteam.executor": "Run",
     "Application.Lecture01ThreadDemo.executor": "Run",
     "Application.Lecture02Concat.executor": "Run",
+    "Application.Lecture02ContextRateLimiterDemo.executor": "Run",
     "Application.Lecture02Drop.executor": "Run",
     "Application.Lecture02FluxCreateRefactoring.executor": "Run",
     "Application.Lecture02HandleAssignment.executor": "Run",
@@ -145,7 +148,7 @@
       <recent name="com.rp.section08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture01Context">
+  <component name="RunManager" selected="Application.Lecture02ContextRateLimiterDemo">
     <configuration name="Lecture01Context" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rp.section12.Lecture01Context" />
       <module name="reactor" />
@@ -159,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture04SinkMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rp.section11.Lecture04SinkMulti" />
+    <configuration name="Lecture02ContextRateLimiterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rp.section12.Lecture02ContextRateLimiterDemo" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rp.section11.*" />
+          <option name="PATTERN" value="com.rp.section12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture02ContextRateLimiterDemo" />
         <item itemvalue="Application.Lecture01Context" />
         <item itemvalue="Application.Lecture07SlackDemo" />
         <item itemvalue="Application.Lecture04SinkReply" />
         <item itemvalue="Application.Lecture05SinkMultiDirectAll" />
-        <item itemvalue="Application.Lecture04SinkMulti" />
       </list>
     </recent_temporary>
   </component>
