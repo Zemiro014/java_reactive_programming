@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a292016f-ac4a-438b-969c-91193eeff108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rp/test/Lecture02SVErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rp/test/Lecture03SVRangeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +123,9 @@
     "JUnit.Lecture01SVDemoTest.test1.executor": "Run",
     "JUnit.Lecture01SVDemoTest.test2.executor": "Run",
     "JUnit.Lecture02SVErrorTest.test1.executor": "Run",
+    "JUnit.Lecture02SVErrorTest.test2.executor": "Run",
+    "JUnit.Lecture02SVErrorTest.testErroMessage.executor": "Run",
+    "JUnit.Lecture03SVRangeTest.testError.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -149,39 +152,7 @@
       <recent name="com.rp.section08.helper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Lecture02SVErrorTest.testErroMessage">
-    <configuration name="Lecture01SVDemoTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rp.test" />
-      <option name="MAIN_CLASS_NAME" value="com.rp.test.Lecture01SVDemoTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture01SVDemoTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="reactor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rp.test" />
-      <option name="MAIN_CLASS_NAME" value="com.rp.test.Lecture01SVDemoTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Lecture03SVRangeTest.test2">
     <configuration name="Lecture02SVErrorTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="reactor" />
       <extension name="coverage">
@@ -230,13 +201,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lecture03SVRangeTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rp.test.Lecture03SVRangeTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture03SVRangeTest.testError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rp.test.Lecture03SVRangeTest" />
+      <option name="METHOD_NAME" value="testError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lecture03SVRangeTest.test2" />
+        <item itemvalue="JUnit.Lecture03SVRangeTest.testError" />
         <item itemvalue="JUnit.Lecture02SVErrorTest.testErroMessage" />
         <item itemvalue="JUnit.Lecture02SVErrorTest.test2" />
         <item itemvalue="JUnit.Lecture02SVErrorTest.test1" />
-        <item itemvalue="JUnit.Lecture01SVDemoTest.test2" />
-        <item itemvalue="JUnit.Lecture01SVDemoTest.test1" />
       </list>
     </recent_temporary>
   </component>
