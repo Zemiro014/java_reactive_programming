@@ -8,6 +8,7 @@ public class Lecture01Context {
 
     public static void main(String[] args) {
         getWelcomeMessage()
+                .contextWrite(context -> context.put("user", context.get("user").toString().toUpperCase()))
                 .contextWrite(Context.of("user", "Sam"))
                 .subscribe(Util.subscriber());
     }
